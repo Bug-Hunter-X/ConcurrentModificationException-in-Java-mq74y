@@ -1,0 +1,2 @@
+# ConcurrentModificationException in Java
+This example demonstrates how to reproduce a `ConcurrentModificationException` in Java.  The `ConcurrentModificationExceptionExample.java` file contains the buggy code, while `ConcurrentModificationExceptionExampleSolution.java` provides a corrected version.  The bug arises from attempting to modify a list while iterating over it using a foreach loop. The solution shows how to avoid this using an iterator or iterating backwards.
